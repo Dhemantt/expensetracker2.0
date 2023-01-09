@@ -34,7 +34,7 @@ function Profile() {
     const enteredName = NameInputRef.current.value;
     const enteredImg = ImgUrlRef.current.value;
 
-    fetch('https://identitytoolkit.googleapis.com/v1/accounts:update?key=AIzaSyC3wXKuuXRo8nk25KJYsqL0H1BjvZKPcOE', {
+    fetch('https://identitytoolkit.googleapis.com/v1/accounts:update?key=AIzaSyC0RDZKXtBK31ap08ih55b94_LzkK9eJYM', {
       method: 'POST',
       body: JSON.stringify({
         idToken: token,

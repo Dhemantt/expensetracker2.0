@@ -39,8 +39,7 @@ function App() {
     else if(isLoggedin && !emailVerified){
       navigate('/emailVerify')
     }
-    
-},[emailVerified])
+},[isLoggedin, emailVerified])
 
   return (
     <>

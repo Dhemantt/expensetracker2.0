@@ -6,8 +6,6 @@ const initialState={
     isLoggedin:false,
     emailVerification:false
 };
-
-
 const Authslice = createSlice({
     name:'Auth',
     initialState:initialState,

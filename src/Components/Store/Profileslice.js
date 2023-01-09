@@ -30,7 +30,7 @@ export const getUser = (idToken) => {
   
       const getUserData = async () => {
         const res = await axios.post(
-          `https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyC3wXKuuXRo8nk25KJYsqL0H1BjvZKPcOE`,
+          `https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyC0RDZKXtBK31ap08ih55b94_LzkK9eJYM`,
           {
             idToken: idToken,
           }
