@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux';
 
 const  HomePage = () => {
   const {isLoggedin} = useSelector(state=>state.auth);
-
+console.log("HomePage");
   useEffect(()=>console.log("home page",isLoggedin))
   return (
     <>
